@@ -21,7 +21,7 @@ function Header() {
           </div>
         </div>
         <div className='flex text-sm items-center gap-5'>
-          <div className='border rounded-sm text-base px-2 border-white/10 text-white/50 mt-2  p-1 cursor-pointer hover:bg-blue-500'>
+          <div className='border rounded-sm text-base px-2 border-white/10 text-blue-200 mt-2  p-1 cursor-pointer hover:bg-blue-500'>
             <p>Login</p>
           </div>
         </div>

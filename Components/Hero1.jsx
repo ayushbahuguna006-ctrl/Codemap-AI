@@ -14,7 +14,7 @@ function Hero1() {
           <p>fidelity mapping and AI driven pattern recognition.</p>
           <p>The future of code analysis is synthetic.</p>
         </div>
-        <div className='mt-5 flex'>
+        <div className='mt-10 mr-5 flex'>
             <input type="text" className='border bg-gray-500/20 border-gray-500/20 outline-none md:h-[7vh] md:w-[25vw] h-[7vh] w-[70vw] rounded-sm p-3' placeholder='🔗      https://github.com/facebook/react' />
             <button className='border font-medium rounded-r-sm text-sm border-black/20 text-black bg-gradient-to-b from-blue-400 to-blue-600 md:px-2 px-1  cursor-pointer'>Analyse⚡</button>
         </div>
