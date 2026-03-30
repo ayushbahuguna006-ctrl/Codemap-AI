@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <div className='flex gap-10  p-1 pt-2 items-center justify-between bg-[#0F162A] '>
-        <div className='flex items-center gap-15'>
+        <div className='flex items-center gap-6'>
           <div className='flex items-center gap-1'>
             <FaLaptopCode className='text-blue-300' size={35} />
             <p className='text-xl text-blue-200'>CodeWiki</p>
