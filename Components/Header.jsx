@@ -3,16 +3,29 @@ import { FaLaptopCode } from "react-icons/fa";
 
 function Header() {
   return (
-    <div>
-      <div className='flex'>
+ <>
+ <div className='flex gap-10 p-1'>
+     <div className='flex items-center gap-1'>
         <div>
-          <FaLaptopCode size={25} />
+          <FaLaptopCode />
         </div>
-        <div className='text-base font-semibold'>
-           CodeWiki
+        <div>
+          <p>CodeWiki</p>
         </div>
-      </div>
-    </div>
+     </div>
+     <div className='flex text-sm items-center gap-5'>
+        <div>
+           <p>HOME</p>
+        </div>
+        <div>
+            <p>ABOUT</p>
+        </div>
+        <div className='border rounded-xl border-blue-200 p-1'>
+          <p>LOGIN</p>
+        </div>
+     </div>
+ </div>
+ </>
   )
 }
 
