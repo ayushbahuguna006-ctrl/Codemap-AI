@@ -4,14 +4,16 @@ import { FaLaptopCode } from "react-icons/fa";
 function Header() {
   return (
     <>
-      <div className='flex gap-10  p-1 pt-2 items-center justify-between md:pr-10 bg-[#0F162A] '>
-        <div className='flex items-center gap-9 md:gap-20 md:px-10 pl-2'>
-          <div className='flex items-center gap-1'>
-            <FaLaptopCode className='text-blue-300'  size={20} />
-            <p className='text-xl text-blue-200'>CodeWiki</p>
+      <div className='flex gap-4 md:gap-10 p-1 pt-2 items-center justify-between md:pr-10 bg-[#0F162A] overflow-x-hidden'>
+        
+        <div className='flex items-center gap-4 md:gap-20 md:px-10 pl-2 min-w-0'>
+          
+          <div className='flex items-center gap-1 flex-shrink-0'>
+            <FaLaptopCode className='text-blue-300' size={20} />
+            <p className='text-xl text-blue-200 whitespace-nowrap'>CodeWiki</p>
           </div>
 
-          <div className='flex text-sm font-bold text-gray-500 gap-5 mt-2'>
+          <div className='flex text-sm font-bold text-gray-500 gap-3 md:gap-5 mt-2 flex-wrap'>
             <div>
               <p className='cursor-pointer hover:text-green-500'>HOME</p>
             </div>
@@ -19,12 +21,15 @@ function Header() {
               <p className='cursor-pointer hover:text-green-500'>ABOUT</p>
             </div>
           </div>
+
         </div>
-        <div className='flex text-sm items-center gap-5'>
-          <div className='border rounded-sm text-base px-2 border-white/10 text-blue-200 mt-2  p-1 cursor-pointer hover:bg-blue-500'>
+
+        <div className='flex text-sm items-center gap-3 md:gap-5 flex-shrink-0'>
+          <div className='border rounded-sm text-base px-2 border-white/10 text-blue-200 mt-2 p-1 cursor-pointer hover:bg-blue-500 whitespace-nowrap'>
             <p>Login</p>
           </div>
         </div>
+
       </div>
     </>
   )
