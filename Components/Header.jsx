@@ -4,9 +4,9 @@ import { FaLaptopCode } from "react-icons/fa";
 function Header() {
   return (
     <>
-      <div className='flex gap-4 md:gap-10 p-1 pt-2 items-center justify-between md:pr-10 bg-[#0F162A] overflow-x-hidden'>
+      <div className='flex gap-6 md:gap-10 p-1 pt-2 items-center justify-between md:pr-10 bg-[#0F162A] overflow-x-hidden'>
         
-        <div className='flex items-center gap-4 md:gap-20 md:px-10 pl-2 min-w-0'>
+        <div className='flex items-center gap-8 md:gap-20 md:px-10 pl-2 min-w-0'>
           
           <div className='flex items-center gap-1 flex-shrink-0'>
             <FaLaptopCode className='text-blue-300' size={20} />
