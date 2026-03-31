@@ -15,7 +15,7 @@ function Hero1() {
           <p>The future of code analysis is synthetic.</p>
         </div>
 
-        <div className='mt-10 pr-5 flex w-full max-w-full'>
+        <div className='md:mt-15 mt-10 pr-5 flex w-full max-w-full'>
             <input 
               type="text"
               className='border md:text-base text-sm bg-gray-500/20 border-gray-500/20 outline-none md:h-[6vh] md:w-[25vw] h-[6vh] w-full rounded-sm p-3'
@@ -26,9 +26,9 @@ function Hero1() {
             </button>
         </div>
       </div>
-      <div className='mt-10 md:mt-0 text-center max-w-sm md:max-w-md md:mr-4 mr-2'>
-        <img src="./rocket.webp" className='rounded-xl border border-white/20 md:-mt-7 max-w-full' alt="rocket-img" />
-        <div className='h-[5vh] rounded-xl bg-gray-500/20 flex items-center justify-center mt-2'>
+      <div className='mt-10 md:mt-0  text-center max-w-sm md:max-w-md md:mr-4 '>
+        <img src="./rocket.webp" className='rounded-xl border border-white/20 md:-mt-7  max-w-full' alt="rocket-img" />
+        <div className='h-[5vh]  hover:text-black rounded-xl bg-gray-500/20 flex items-center justify-center'>
             <p className='text-xs text-gray-400'>READING DOCS MADE EASY</p>
         </div>
         <div className='md:h-[23vh] h-[10vh]'></div>
