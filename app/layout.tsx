@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "CODEMAP AI",
-  description: "Analyze and understand any codebase instantly with AI-powered insights. ",
+  description: "Analyze and understand any codebase instantly with AI-powered insights ! ",
 };
 
 export default function RootLayout({
