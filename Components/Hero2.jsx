@@ -19,8 +19,6 @@ function Hero2() {
       <div className='bg-[#0d1b2a] border border-white/10 border-t-2 border-t-green-500 rounded-md p-3 md:p-5'>
         
         <div className='flex flex-col md:flex-row gap-4'>
-          
-          {/* left side */}
           <div className='flex-1'>
             <p className='text-[10px] md:text-xs text-green-400 mb-2'>
               # PROCESS_ID: 8829
@@ -41,8 +39,6 @@ function Hero2() {
               <p>{'}'}</p>
             </div>
           </div>
-
-          {/* right side */}
           <div className='w-full md:w-[280px] flex flex-col gap-3'>
             <div className='bg-[#202b3c] rounded-md p-3'>
               <p className='text-gray-400 text-[10px] md:text-xs mb-1'>COMPLEXITY PATTERN</p>
