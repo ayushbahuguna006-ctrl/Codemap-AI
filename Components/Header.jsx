@@ -3,7 +3,7 @@
 import React from 'react'
 import { FaLaptopCode } from "react-icons/fa"
 import { signIn } from "next-auth/react"
-//header page
+//Header page
 
 function Header() {
   return (
