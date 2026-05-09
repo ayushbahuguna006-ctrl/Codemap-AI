@@ -36,9 +36,9 @@ useEffect(() => {
   return () => clearTimeout(timeout)
 }, [text, isDeleting, wordIndex])
   return (
-    <div className='h-fit overflow-x-hidden md:flex justify-between md:pt-[20vh] pt-[7vh] md:px-[10vw] px-5 bg-gradient-to-b from-[#0F162A] to-[#15262f]/70'>
+    <div className='h-fit overflow-hidden md:flex justify-between md:pt-[20vh] pt-[7vh] md:px-[10vw] px-5 bg-gradient-to-b from-[#0F162A] to-[#15262f]/70'>
 
-      <div className='w-full md:-translate-y-10 max-w-lg md:max-w-xl md:ml-4 ml-0'>
+      <div className='w-full flex-col md:-translate-y-10 max-w-lg md:max-w-xl md:ml-4 ml-0'>
         
 
         <div className='text-3xl md:text-5xl flex flex-col'>
@@ -65,10 +65,10 @@ useEffect(() => {
           </p>
         </div>
 
-        <div className='md:mt-14 mt-10 pr-0 md:pr-5 flex w-full max-w-full'>
+        <div className='md:mt-13 mt-10 pr-0 md:pr-5 flex w-full max-w-full'>
           <input
             type="text"
-            className='border md:text-base text-blue-300 text-base bg-gray-500/20 md:pl-5 border-gray-500/20 outline-none md:h-[6vh] md:w-[25vw] h-[6vh] w-full rounded-l-sm p-3'
+            className='border md:text-base text-white/50 text-base bg-gray-500/20 md:pl-5 border-gray-500/20 outline-none md:h-[6vh] md:w-[25vw] h-[6vh] w-full rounded-l-sm p-3'
             placeholder='🔗 https://github.com/facebook/react'
           />
 
@@ -76,17 +76,44 @@ useEffect(() => {
             Analyse⚡
           </button>
         </div>
+        <div className="mt-15 custom-scrollbar w-full md:w-[600px] pl-1 md:pl-2 border border-gray-300/30  pt-4 rounded-xl overflow-x-scroll">
+  <div className="flex gap-4 w-max px-1 pb-4">
+
+    <div className="w-[260px] flex-shrink-0 rounded-xl border border-white/10 bg-gray-500/10 p-4">
+      <p className="text-green-400 font-semibold text-sm">Entry Point</p>
+      <p className="text-xs text-gray-400 mt-2">
+        Detects main files like index.js, main.py, app.jsx.
+      </p>
+    </div>
+
+    <div className="w-[260px] flex-shrink-0 rounded-xl border border-white/10 bg-gray-500/10 p-4">
+      <p className="text-blue-300 font-semibold text-sm">File Mapping</p>
+      <p className="text-xs text-gray-400 mt-2">
+        Shows project structure like VS Code file tree.
+      </p>
+    </div>
+
+    <div className="w-[260px] flex-shrink-0 rounded-xl border border-white/10 bg-gray-500/10 p-4">
+      <p className="text-yellow-300 font-semibold text-sm">AI Summary</p>
+      <p className="text-xs text-gray-400 mt-2">
+        Explains folders, components and architecture.
+      </p>
+    </div>
+
+  </div>
+</div>
 
       </div>
+      
 
-      <div className='mt-10 md:-translate-y-10 md:mt-0 text-center md:max-w-md md:mr-4 w-full md:w-auto mx-auto'>
+      <div className='mt-10 md:translate-y-15 md:mt-0 text-center md:max-w-md md:mr-4 w-full md:w-auto mx-auto'>
         <img
           src="/rocket.webp"
           className='rounded-xl border border-white/20 md:-mt-7 max-w-full block mx-auto'
           alt="rocket-img"
         />
 
-        <div className='h-[5vh] hover:text-black rounded-xl bg-gray-500/20 flex items-center justify-center w-full'>
+        <div className='h-[4vh] hover:text-black rounded-xl bg-gray-500/20 flex items-center justify-center w-full'>
           <p className='text-xs text-gray-400'>
             READING DOCS MADE EASY
           </p>
@@ -94,6 +121,7 @@ useEffect(() => {
 
         <div className='md:h-[23vh] h-[10vh]'></div>
       </div>
+      
 
     </div>
   )

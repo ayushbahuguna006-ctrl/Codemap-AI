@@ -24,7 +24,7 @@ function Header() {
 
       <button
         onClick={() => signIn("github")}
-        className='border rounded-sm text-base px-2 text-green-500 border-white/10 text-blue-200 mt-2 p-1 cursor-pointer hover:bg-blue-500 whitespace-nowrap'
+        className='border rounded-sm text-base px-2 text-green-500 border-white/10 text-blue-200 mt-2 p-1 cursor-pointer hover:bg-white/20 whitespace-nowrap'
       >
         Login
       </button>
