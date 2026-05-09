@@ -4,6 +4,7 @@ import React from 'react'
 import { FaLaptopCode } from "react-icons/fa"
 import { signIn } from "next-auth/react"
 //Header page
+//o-auth success
 
 function Header() {
   return (
