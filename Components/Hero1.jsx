@@ -65,7 +65,7 @@ useEffect(() => {
           </p>
         </div>
 
-        <div className='md:mt-13 mt-10 pr-0 md:pr-5 flex w-full max-w-full'>
+        <div className='md:mt-11 mt-10 pr-0 md:pr-5 flex w-full max-w-full'>
           <input
             type="text"
             className='border md:text-base text-white/50 text-base bg-gray-500/20 md:pl-5 border-gray-500/20 outline-none md:h-[6vh] md:w-[25vw] h-[6vh] w-full rounded-l-sm p-3'
@@ -76,7 +76,7 @@ useEffect(() => {
             Analyse⚡
           </button>
         </div>
-        <div className="mt-15 custom-scrollbar w-full md:w-[600px] pl-1 md:pl-2 border border-gray-300/30  pt-4 rounded-xl overflow-x-scroll">
+        <div className="mt-10 flex custom-scrollbar w-full md:w-[600px] pl-1 md:pl-2 border border-gray-300/30  pt-4 rounded-xl overflow-x-scroll">
   <div className="flex gap-4 w-max px-1 pb-4">
 
     <div className="w-[260px] flex-shrink-0 rounded-xl border border-white/10 bg-gray-500/10 p-4">
@@ -103,10 +103,11 @@ useEffect(() => {
   </div>
 </div>
 
+
       </div>
       
 
-      <div className='mt-10 md:translate-y-15 md:mt-0 text-center md:max-w-md md:mr-4 w-full md:w-auto mx-auto'>
+      <div className='mt-10 md:translate-y-10 md:mt-0 text-center md:max-w-md md:mr-4 w-full md:w-auto mx-auto'>
         <img
           src="/rocket.webp"
           className='rounded-xl border border-white/20 md:-mt-7 max-w-full block mx-auto'
