@@ -68,11 +68,11 @@ useEffect(() => {
         <div className='md:mt-14 mt-10 pr-0 md:pr-5 flex w-full max-w-full'>
           <input
             type="text"
-            className='border md:text-base text-blue-300 text-sm bg-gray-500/20 md:pl-5 border-gray-500/20 outline-none md:h-[6vh] md:w-[25vw] h-[6vh] w-full rounded-l-sm p-3'
+            className='border md:text-base text-blue-300 text-base bg-gray-500/20 md:pl-5 border-gray-500/20 outline-none md:h-[6vh] md:w-[25vw] h-[6vh] w-full rounded-l-sm p-3'
             placeholder='🔗 https://github.com/facebook/react'
           />
 
-          <button className='border-l font-medium rounded-r-sm text-sm border-gray-500/10 text-black bg-gradient-to-b from-blue-400 to-blue-600 md:px-2 px-3 cursor-pointer whitespace-nowrap'>
+          <button className='border-l font-medium rounded-r-sm text-sm border-gray-500/10 text-yellow-100 bg-gradient-to-b from-blue-400 to-blue-600 md:px-2 px-3 cursor-pointer whitespace-nowrap'>
             Analyse⚡
           </button>
         </div>
