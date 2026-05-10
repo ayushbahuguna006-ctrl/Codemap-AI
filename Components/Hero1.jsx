@@ -119,11 +119,11 @@ useEffect(() => {
           alt="rocket-img"
         />
 
-        <div className='h-[4vh] hover:text-black rounded-full bg-gray-500/20 flex items-center justify-center w-full'>
+        {/* <div className='h-[4vh] hover:text-black rounded-full bg-gray-500/20 flex items-center justify-center w-full'>
           <p className='text-xs text-gray-400'>
             READING DOCS MADE EASY
           </p>
-        </div>
+        </div> */}
 
         <div className='md:h-[23vh] h-[10vh]'></div>
       </div>
