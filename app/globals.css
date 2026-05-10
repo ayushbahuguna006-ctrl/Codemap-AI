@@ -42,9 +42,9 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: linear-gradient(
     to right,
-    rgba(59,130,246,0.2),
+    rgba(59,130,246,0.4),
     rgba(59,130,246,0.7),
-    rgba(59,130,246,0.2)
+    rgba(59,130,246,0.4)
   );
 
   border-radius: 999px;
