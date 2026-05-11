@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero2() {
   return (
-    <div className='bg-[#15262f]/70 h-fit px-[4vw] md:py-[2.5vh] py-[7vh]'>
+    <div className=' h-fit px-[4vw] bg-gradient-to-b from-[#15262f]/90 to-[#0B1326]/90 md:py-[2.5vh] pt-[7vh]'>
       
       <div className='flex items-center -translate-y-25 md:-translate-y-10 justify-between mb-4'>
         <p className='text-blue-200 font-semibold text-sm md:text-lg'>

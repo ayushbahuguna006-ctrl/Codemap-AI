@@ -2,9 +2,9 @@ import React from 'react'
 
 function Hero3() {
   return (
-     <div className='bg-[#0B1326]  px-[4vw] py-[2.5vh]'>
+     <div className='bg-[#0B1326]/90 -translate-y-13 md:-translate-y-0 min-h-screen flex-col px-[4vw] '>
       
-      <div className='flex items-center -translate-y-10 md:-translate-y-2 justify-between mb-4'>
+      <div className='flex items-center translate-y-6 md:translate-y-6 justify-between '>
         <p className='text-blue-200 font-semibold text-sm md:text-lg'>
           RECENT ARCHIVES
         </p>
@@ -12,6 +12,24 @@ function Hero3() {
         <div className='text-white/60 text-[10px] md:text-sm flex items-center gap-1'>
           <p>GLOBAL REPOSITORY FEED</p>
         </div>
+      </div>
+      <div className='flex-col flex md:flex-row md:justify-around gap-5'>
+          <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-2 md:mt-20 mt-10'>
+               <div className='flex'>
+                      
+               </div>
+          </div>
+           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] w-[50vh] md:ml-0 ml-2 md:mt-20 mt-10'>
+               <div className='flex'>
+                      
+               </div>
+          </div>
+           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] w-[50vh] md:ml-0 ml-2 md:mt-20 mt-10'>
+               <div className='flex'>
+                      
+               </div>
+          </div>
+
       </div>
       </div>
   )

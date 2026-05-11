@@ -41,7 +41,7 @@ useEffect(() => {
 }, [text, isDeleting, wordIndex])
 
   return (
-    <div className='h-fit overflow-hidden md:flex justify-between md:pt-[20vh] pt-[7vh] md:px-[10vw] px-5 bg-gradient-to-b from-black to-[#15262f]/70'>
+    <div className='h-fit overflow-hidden md:flex justify-between md:pt-[20vh] pt-[7vh] md:px-[10vw] px-5 bg-gradient-to-b from-black to-[#15262f]/90'>
 
       <div className='w-full flex-col md:-translate-y-10 max-w-lg md:max-w-xl md:ml-4 ml-0'>
         
