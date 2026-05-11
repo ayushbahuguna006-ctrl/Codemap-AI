@@ -41,7 +41,7 @@ useEffect(() => {
 }, [text, isDeleting, wordIndex])
 
   return (
-    <div className='h-fit overflow-hidden md:flex justify-between md:pt-[20vh] pt-[7vh] md:px-[10vw] px-5 bg-black'>
+    <div className='h-fit overflow-hidden md:flex justify-between md:pt-[20vh] pt-[7vh] md:px-[10vw] px-5 bg-gradient-to-b from-black to-[#15262f]/70'>
 
       <div className='w-full flex-col md:-translate-y-10 max-w-lg md:max-w-xl md:ml-4 ml-0'>
         
@@ -112,10 +112,10 @@ useEffect(() => {
       </div>
       
 
-      <div ref={imageRef} className='mt-10  md:mt-0 text-center md:max-w-md md:mr-4 w-full md:w-auto mx-auto'>
+      <div ref={imageRef} className='mt-10   md:mt-0 text-center md:max-w-md md:mr-4 w-full md:w-auto mx-auto'>
         <img
           src="/space.gif"
-          className='rounded-xl border border-black md:-mt-7 max-w-full block mx-auto md:h-[450px] md:w-auto object-contain'
+          className='rounded-xl border border-white/10 md:-mt-7 max-w-full block mx-auto md:h-[450px] md:w-auto object-contain'
           alt="rocket-img"
         />
 
@@ -125,7 +125,7 @@ useEffect(() => {
           </p>
         </div> */}
 
-        <div className='md:h-[23vh] h-[10vh]'></div>
+        <div className='md:h-[15vh] h-[10vh]'></div>
       </div>
       
 

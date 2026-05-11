@@ -2,9 +2,9 @@ import React from 'react'
 
 function Hero2() {
   return (
-    <div className='bg-[#15262f]/70 h-fit px-[4vw] py-[2.5vh]'>
+    <div className='bg-[#15262f]/70 h-fit px-[4vw] md:py-[2.5vh] py-[7vh]'>
       
-      <div className='flex items-center -translate-y-10 md:-translate-y-7 justify-between mb-4'>
+      <div className='flex items-center -translate-y-25 md:-translate-y-10 justify-between mb-4'>
         <p className='text-blue-200 font-semibold text-sm md:text-lg'>
           ANALYSIS ENGINE
         </p>
@@ -16,7 +16,7 @@ function Hero2() {
         </div>
       </div>
 
-      <div className='bg-[#0d1b2a] -translate-y-10 border md:-translate-y-7 border-white/10 border-t-2 border-t-green-500 rounded-md p-3 md:p-5'>
+      <div className='bg-[#0d1b2a] -translate-y-25 border md:-translate-y-10 border-white/10 border-t-2 border-t-green-500 rounded-md p-3 md:p-5'>
         
         <div className='flex flex-col md:flex-row gap-4'>
           <div className='flex-1'>
