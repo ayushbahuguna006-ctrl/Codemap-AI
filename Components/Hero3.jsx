@@ -13,18 +13,18 @@ function Hero3() {
           <p>GLOBAL REPOSITORY FEED</p>
         </div>
       </div>
-      <div className='flex-col flex md:flex-row md:justify-around md:gap-5 py-[2vh]'>
+      <div className='flex-col flex md:flex-row md:justify-around md:gap-5 py-[2vh] -translate-y-3'>
           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh]  md:ml-0 ml-2 md:mt-10 mt-10'>
                <div className='flex'>
                       
                </div>
           </div>
-           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-2 md:mt-10 mt-10'>
+           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-2 md:mt-10 mt-7'>
                <div className='flex'>
                       
                </div>
           </div>
-           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-2 md:mt-10 mt-10'>
+           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-2 md:mt-10 mt-7'>
                <div className='flex'>
                       
                </div>
