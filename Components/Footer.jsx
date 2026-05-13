@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Footer() {
-  //footer section
+  //footer 
   return (
     <div>
         <div className='flex md:flex-row flex-col items-center gap-5  md:justify-around bg-[#031033]/60 h-[30vh]'>
