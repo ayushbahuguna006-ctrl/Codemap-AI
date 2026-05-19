@@ -4,7 +4,7 @@ function Hero2() {
   return (
     <div className=' h-fit px-[4vw] bg-gradient-to-b from-[#15262f]/90 to-[#0B1326]/90 md:py-[2.5vh] pt-[7vh]'>
       
-      <div className='flex items-center -translate-y-25 md:-translate-y-10 justify-between mb-4'>
+      <div className='flex items-center -translate-y-20 md:-translate-y-9.5 justify-between mb-4'>
         <p className='text-blue-200 font-semibold text-sm md:text-lg'>
           ANALYSIS ENGINE
         </p>
@@ -16,7 +16,7 @@ function Hero2() {
         </div>
       </div>
 
-      <div className='bg-[#0d1b2a] -translate-y-25 border md:-translate-y-10 border-white/10 border-t-2 border-t-green-500 rounded-md p-3 md:p-5'>
+      <div className='bg-[#0d1b2a] -translate-y-20 border md:-translate-y-10 border-white/10 border-t-2 border-t-green-500 rounded-md p-3 md:p-5'>
         
         <div className='flex flex-col md:flex-row gap-4'>
           <div className='flex-1'>

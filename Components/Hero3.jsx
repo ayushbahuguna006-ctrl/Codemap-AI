@@ -4,7 +4,7 @@ function Hero3() {
   return (
      <div className='bg-[#0B1326]/90  md:translate-y-0 h-fit flex-col px-[4vw] '>
       
-      <div className='flex items-center -translate-y-13 md:translate-y-2 justify-between '>
+      <div className='flex items-center -translate-y-10 md:translate-y-2 justify-between '>
         <p className='text-blue-200 font-semibold text-sm md:text-lg'>
           RECENT ARCHIVES
         </p>
@@ -13,18 +13,18 @@ function Hero3() {
           <p>GLOBAL REPOSITORY FEED</p>
         </div>
       </div>
-      <div className='flex-col -translate-y-13 flex  md:flex-row md:justify-around md:gap-5 md:py-[10vh] -translate-y-'>
-          <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh]  md:ml-0 ml-4 md:mt-10 mt-10'>
+      <div className='flex-col -translate-y-13 flex  md:flex-row md:justify-around md:gap-5 md:py-[10vh]'>
+          <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh]  md:ml-0 ml-7 md:mt-10 mt-10'>
                <div className='flex'>
                       
                </div>
           </div>
-           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-4 md:mt-10 mt-7'>
+           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-7 md:mt-10 mt-7'>
                <div className='flex'>
                       
                </div>
           </div>
-           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-4 md:mt-10 mt-7'>
+           <div className='bg-[#3A4B6A]/70 flex-col h-[30vh] md:w-[50vh] w-[40vh] md:ml-0 ml-7 md:mt-10 mt-7'>
                <div className='flex'>
                       
                </div>
