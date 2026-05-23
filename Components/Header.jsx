@@ -3,10 +3,9 @@
 import React from 'react'
 import { FaLaptopCode } from "react-icons/fa"
 import { signIn } from "next-auth/react"
-//Header page
-//o-auth success
 
 function Header() {
+
   return (
     <div className='flex gap-6 md:gap-10 p-1 pt-2 items-center justify-between md:pr-10 bg-black overflow-x-hidden'>
 
@@ -23,7 +22,11 @@ function Header() {
       </div>
 
       <button
-        onClick={() => signIn("github")}
+        onClick={() =>
+          signIn("github", {
+            callbackUrl: "/dashboard",
+          })
+        }
         className='border rounded-sm text-base px-2 text-green-500 border-white/10 text-blue-200 mt-2 p-1 cursor-pointer hover:bg-white/20 whitespace-nowrap'
       >
         Login

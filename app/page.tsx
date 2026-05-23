@@ -1,11 +1,14 @@
-import Image from "next/image";
-import HomeComponent from "../Components/Home"
+import HomeComponent from "../Components/Home";
+import { getServerSession } from "next-auth";
+import { redirect } from "next/navigation";
 
+export default async function Home() {
 
-export default function Home() {
-  return (
-    <>
-      <HomeComponent/>
-    </>
-  );
+  const session = await getServerSession();
+
+  if (session) {
+    redirect("/dashboard");
+  }
+
+  return <HomeComponent />;
 }
